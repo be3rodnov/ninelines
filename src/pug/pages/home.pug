@@ -1,0 +1,390 @@
+main.home
+	.preloader
+		.preloader__pic-wrap
+			.preloader__pic
+				img(src="./images/rocket.webp" alt="")
+
+	.welcome(data-scroll-section id="welcome")
+		.container
+			.welcome__wrap
+				.welcome__info
+					.welcome__pic
+						img(src="./images/head.webp" alt="")
+					.welcome__title
+						|	Безроднов Михаил, #[br]
+						| Front-end разработчик
+					.welcome__brief(
+						data-scroll
+						data-scroll-direction="vertical"
+						data-scroll-speed="1"
+						data-scroll-class="appear"
+						data-scroll-repeat="true"
+						)
+						| Ищу работу в области фронтэнда, в особенности работы с VUE и JS. Имеется опыт работы в команде, около 4х лет. Занимаюсь вёрсткой сайтов, платформ и порталов, их посадкой на систему, доработкой уже существующих. Имеется опыт работы с мобильными приложениями в Flatter (Dart), а так же с 3D (Three.js).
+				.welcome__contacts.contacts
+					a.contacts__link(href="mailto:be3rodnov@gmail.com")
+						| be3rodnov@gmail.com
+					a.contacts__link(href="tel:+79200025795")
+						| +7 (920) 00-25-795
+					a.contacts__link(href="https://yandex.ru/maps/geo/nizhniy_novgorod/53105078/?ll=43.833528%2C56.304645&z=10" target="_blank")
+						| г. Нижний Новгород
+					.contacts__social
+						.contacts__social-item.contacts__social-item--fb
+							+svg("icon-fb")
+						.contacts__social-item.contacts__social-item--vc
+							+svg("icon-vk")
+						.contacts__social-item.contacts__social-item--tg
+							+svg("icon-tg")
+	.information(data-scroll-section id="information")
+		.container
+			.information__wrap
+				.information__experience.experience(
+					data-scroll
+					data-scroll-direction="vertical"
+					data-scroll-speed="2"
+					data-scroll-class="appear"
+					data-scroll-repeat="true")
+					.experience__wrap
+						.experience__title
+							| Опыт работы
+						.experience__list
+							.experience__item.item
+								.item__date
+									| Июль 2019
+								.item__title
+									| Freelance Designer
+									.item__education.education
+										.education__list
+											.education__item.education__item--0
+												img(src="./images/icon-education-0.svg" alt="")
+											.education__item.education__item--2
+												img(src="./images/icon-education-2.svg" alt="")
+											.education__item.education__item--4
+												img(src="./images/icon-education-4.svg" alt="")
+								.item__more
+									.item__company-info
+										.item__place
+											| Netherlands, Worldwide
+								.item__brief
+									| Available for a project or job in UX/UI, Visual and Product design.
+								.item__link
+									| Commercial tryouts
+								.item__link
+									| Personal projects
+
+							.experience__item.item
+								.item__date
+									| Январь 2017 - Сентябрь 2018
+								.item__title
+									| Digital Designer
+									.item__education.education
+										.education__list
+											.education__item.education__item--4
+												img(src="./images/icon-education-4.svg" alt="")
+											.education__item.education__item--3
+												img(src="./images/icon-education-3.svg" alt="")
+								.item__more
+									.item__icon
+										img(src="./images/logo-company-1.webp" alt="")
+									.item__company-info
+										.item__company
+											| J Creative Solutions
+										.item__place
+											| Digital agency in Minsk, Belarus
+								.item__brief
+									| Created visuals for digital marketing channels such as social media, promo web and online ads. Developed visual language from scratch or following the branding guidelines. Designed presentations #[br]
+									| for clients and indoor purposes.
+								.item__link Agency projects
+
+							.experience__item.item
+								.item__date
+									| Март 2014 - Февраль 2017
+								.item__title
+									| SEO Specialist → Lead SEO Specialist
+									.item__education.education
+										.education__list
+											.education__item.education__item--5
+												img(src="./images/icon-education-5.svg" alt="")
+											.education__item.education__item--4
+												img(src="./images/icon-education-4.svg" alt="")
+								.item__more
+									.item__icon
+										img(src="./images/logo-company-2.webp" alt="")
+									.item__company-info
+										.item__company
+											| OZ.by
+										.item__place
+											| Online bookstore in Minsk, Belarus
+								.item__brief
+									| Improved website performance and user experience of the biggest online bookstore OZ in Belarus, being a part of the marketing team,#[br]
+									| I interpreted Google Analytics data to IT, content and marketing colleagues. Advised on tech and content optimization strategy, automated processes, provided reports, increased organic traffic up to 150%.
+								.item__link
+									| Annual company report 2016
+
+							.experience__item.item
+								.item__date
+									| Август 2012 - Ноябрь 2013
+								.item__title
+									| Content Specialist
+									.item__education.education
+										.education__list
+											.education__item.education__item--5
+												img(src="./images/icon-education-5.svg" alt="")
+								.item__more
+									.item__icon
+										img(src="./images/logo-company-3.webp" alt="")
+									.item__company-info
+										.item__company
+											| 21vek.by
+										.item__place
+											| E-commerce store in Minsk, Belarus
+								.item__brief
+									| Added and modified the product information, prepared images and text for the website, developed categories filters, ensure all info is correct in the catalogue with the goal of improving online shopper experience.
+								.item__link
+
+							.experience__item.item
+								.item__date
+									| Август 2011 - Ноябрь 2014
+								.item__title
+									| Software Support Engineer
+								.item__more
+									.item__icon
+										img(src="./images/logo-company-4.svg" alt="")
+									.item__company-info
+										.item__company
+											| Integral
+										.item__place
+											| Microelectronics factory in Minsk, Belarus
+								.item__brief
+									| Supported retail accounting system LS Trade, troubleshoot technical problems.
+								.item__link
+
+				.information__man.man(
+					data-scroll
+					data-scroll-direction="vertical"
+					data-scroll-speed="-1"
+					data-scroll-class="appear"
+					data-scroll-repeat="true"
+					)
+					.man__wrap
+						.man__fix
+						.man__pic(
+							data-scroll
+							data-scroll-sticky
+							data-scroll-target=".man__wrap"
+							)
+							img(src="./images/man.webp" alt="")
+
+				.information__education.education(
+					data-scroll
+					data-scroll-direction="vertical"
+					data-scroll-speed="2"
+					data-scroll-class="appear"
+					data-scroll-repeat="true"
+					)
+					.education__wrap
+						.education__title
+							| Образование
+						.education__list
+							.education__item.item
+								.item__pic
+									img(src="./images/icon-education-1.svg" alt="")
+								.item__title
+									| Interface Design: Web & Mobile
+								.item__subtitle
+									| IT-Academy, 2020
+
+							.education__item.item
+								.item__pic
+									img(src="./images/icon-education-2.svg" alt="")
+								.item__title
+									| Fundamentals of Usability
+								.item__subtitle
+									| Skillshare, Oct 2018
+
+							.education__item.item
+								.item__pic
+									img(src="./images/icon-education-3.svg" alt="")
+								.item__title
+									| CG Artist
+								.item__subtitle
+									| Polygon CG School, May-Sep 2017
+
+							.education__item.item
+								.item__pic
+									img(src="./images/icon-education-4.svg" alt="")
+								.item__title
+									| Graphic Design
+								.item__subtitle
+									| Belarusian State Academy of Arts, 2015 - 2017 Postgraduate Diploma
+
+							.education__item.item
+								.item__pic
+									img(src="./images/icon-education-5.svg" alt="")
+								.item__title
+									| SEO Specialist
+								.item__subtitle
+									| ARTOX Media, Jun-Aug 2012
+
+							.education__item.item
+								.item__pic
+									img(src="./images/icon-education-6.svg" alt="")
+								.item__title
+									| Information Technology Software
+								.item__subtitle
+									| Belarusian State University of Informatics and Radioelectronics, 2011 - 2015 Bachelor’s degree
+								.item__subtitle
+									| Polotsk State Economic College, 2007 - 2011 Associate’s degree
+
+				.information__skills.skills(
+					data-scroll
+					data-scroll-direction="vertical"
+					data-scroll-speed="1"
+					data-scroll-class="appear"
+					data-scroll-repeat="true"
+					id="skills"
+					)
+					.skills__wrap
+						.skills__title
+							| Навыки
+						.skills__list
+							.skills__item.item
+								.item__title
+									| Adobe Creative Suite
+								.item__subtitle
+									| Photoshop, Illustrator, InDesign, XD, After Effects
+							.skills__item.item
+								.item__title
+									| Prototyping
+								.item__subtitle
+									| Sketch, Figma, InVision, Marvel, Principle, Balsamiq
+							.skills__item.item
+								.item__title
+									| Additional
+								.item__subtitle HTML, CSS, Google Analytics, Keynote, Miro
+							.skills__item.item
+								.item__title
+									| Languages
+								.item__subtitle
+									| Conversational English and Native Russian
+	.goodbye(data-scroll-section)
+		.container
+			.goodbye__wrap
+				.goodbye__pic(
+					data-scroll
+					data-scroll-direction="vertical"
+					data-scroll-speed="0"
+					data-scroll-repeat="true"
+					)
+					img(src="/images/hand.webp" alt="")
+	.pageup(data-scroll-section)
+		.pageup__progress-wrap(href="#welcome" data-scroll-to)
+			code
+				svg.
+					<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24ZM0.960001 24C0.960001 36.7246 11.2754 47.04 24 47.04C36.7246 47.04 47.04 36.7246 47.04 24C47.04 11.2754 36.7246 0.960001 24 0.960001C11.2754 0.960001 0.960001 11.2754 0.960001 24Z" fill="#282A33"/>
+						<path d="M48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24ZM0.960001 24C0.960001 36.7246 11.2754 47.04 24 47.04C36.7246 47.04 47.04 36.7246 47.04 24C47.04 11.2754 36.7246 0.960001 24 0.960001C11.2754 0.960001 0.960001 11.2754 0.960001 24Z" fill="#D2233C"/>
+						<path d="M24 36V12.3678" stroke="#282A33" stroke-width="2"/>
+						<path d="M15 21.2874L24 12L33 21.2874" stroke="#282A33" fill="none" stroke-width="1.9"/>
+					</svg>
+
+	<div class="baar">
+		<div class="bar1" style="transform: translateX(65%);"></div>
+	</div>
+script.
+	document.addEventListener('DOMContentLoaded', function(){ // Аналог $(document).ready(function(){
+		let
+		preloader = $(".preloader"),
+		imagesCount  = $('img').length, // количество изображений
+		dBody        = $('body'), //обращаемся к body
+		percent      = 100 / imagesCount, // количество % на одну картинку
+		progress     = 0, // точка отсчета
+		imgSum       = 0, // количество картинок
+		loadedImg    = 0; // счетчик загрузки картинок
+
+		if (imagesCount >= imgSum && imagesCount > 0) {
+			dBody.css('overflow', 'hidden');
+
+			$(".preloader__pic-wrap").animate(
+				{borderSpacing: progress }, {
+				step: function(progress,fx) {
+					$(this).css('transform', `translate(calc(-100vw + (${progress} * 2vw)),calc(100vh - (${progress} * 2vh)))`);
+				},
+				duration: 50,
+				easing:'linear'
+			},0);
+
+			for (var i = 0; i < imagesCount; i++) { // создаем клоны изображений
+				var img_copy        = new Image();
+				img_copy.src        = document.images[i].src;
+				img_copy.onload     = img_load;
+				img_copy.onerror    = img_load;
+			}
+
+			function img_load () {
+				progress += percent;
+				loadedImg++;
+				if (progress >= 100 || loadedImg == imagesCount)
+					preloader.delay(400).fadeOut('slow');
+					dBody.css('overflow', '');
+
+				$(".preloader__pic-wrap").animate(
+					{borderSpacing: progress },
+					{
+						step: function(progress,fx) { $(this).css('transform', `translate(calc(-100vw + (${progress} * 2vw)),calc(100vh - (${progress} * 2vh)))`);},
+						duration: 50,
+						easing:'linear'
+					},0);}
+		} else {
+			preloader.remove();
+		}
+		// ===
+		$(".header__menu-btn-m").click (function(){
+			$(this).toggleClass('header__menu-btn-m--active');
+			$(".header__menu").toggleClass('header__menu--active');
+			$("html,body").toggleClass('no-scroll');
+		});
+		$(".menu__link").click (function(){
+			setTimeout(function(){
+				$(".header__menu-btn-m").removeClass('header__menu-btn-m--active');
+				$(".header__menu").removeClass('header__menu--active');
+				$("html,body").removeClass('no-scroll');
+			}, 400);
+		});
+		// ===
+
+	});
+
+//-
+	+lazyPicture({
+		src: `${baseDir}images/mem.jpg`,
+		alt: 'Мемчик',
+	}).home__picture#hello
+
+	p.home__text#necessarily
+		| Это стартовый шаблон для верстки!
+		br
+		br
+		| Обязательно посмотри реализацию:
+		br
+		| pug в папке #[code pug/(components|pages)],
+		br
+		| js в папке #[code js/(components|modules|pages)],
+		br
+		| scss в папке #[code scss/(components|pages)]
+		br
+		br
+		| Не используемые части кода/компонентов можно просто отключить (удалять не рекомендуется)
+		br
+		br
+		| Не забывай читать #[a(href="https://github.com/ninelines-team/ninelines-docs" target="_blank") документацию]!
+
+	//- picture.home__picture.home__picture--2#bye
+	+lazyPicture({
+		src: `${baseDir}images/mem-2.jpg`,
+		alt: 'Мемчик 2',
+	}, [
+		{
+			srcset: `${baseDir}images/mem-2.jpg`,
+		}
+	]).home__picture.home__picture--2#bye
